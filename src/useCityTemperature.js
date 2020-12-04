@@ -25,7 +25,7 @@ function useCityTemperature(city) {
       .catch(error => {
         setLoading(false);
         if (error.status === 404) {
-          setError("Cette ville n'existe pas");
+          setError("La ville '" + city + "' n'existe pas");
         } else {
           setError(
             "Une erreur est survenue lors de la vérification de la température"
