@@ -6,6 +6,6 @@
   align-items: center;
 }
 
-.CityInput * {
+.CityInput > * {
   margin-top: 10px;
 }

@@ -7,7 +7,7 @@
   transition: background-color 500ms linear;
 }
 
-.TemperatureViewer * {
+.TemperatureViewer > * {
   margin-top: 15px;
 }
 
