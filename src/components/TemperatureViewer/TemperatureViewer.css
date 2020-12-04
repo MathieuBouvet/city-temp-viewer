@@ -12,9 +12,9 @@
 }
 
 .TemperatureViewer.hot {
-  background-color: thistle;
+  background-color: DarkSalmon;
 }
 
 .TemperatureViewer.cold {
-  background-color: teal;
+  background-color: CornflowerBlue;
 }
