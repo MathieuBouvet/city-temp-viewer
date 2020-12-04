@@ -25,9 +25,11 @@ function useCityTemperature(city) {
       .catch(error => {
         setLoading(false);
         if (error.status === 404) {
-          setError("City not found");
+          setError("Cette ville n'existe pas");
         } else {
-          setError("An error occured");
+          setError(
+            "Une erreur est survenue lors de la vérification de la température"
+          );
         }
       });
   }, [city]);

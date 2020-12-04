@@ -29,7 +29,7 @@ function TemperatureViewer({ city, onReset }) {
       {isLoading && "Vérification de la température en cours..."}
       {error ? error : `A ${city}, ${getTemperatureText(isHot(temperature))}`}
       <button className="resetCity" onClick={onReset}>
-        reset
+        recommencer
       </button>
     </div>
   );
